@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Host Grotesk", sans-serif;
+    ;
+}
+
+.brandlogo img {
+    height: 60px;
+    margin-left: 1.25em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav {
+    min-width: 20%;
+    margin-right: 4em;
+}
+
+li>a {
+    text-decoration: none;
+}
+
+.login ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login {
+    min-width: 15%;
+}
+
+.login>ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.second-link {
+    gap: 1rem;
+}
+
+li>a {
+    color: black;
+}
+
+.button {
+    background-color: black;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.signup {
+    margin-top: 12px;
+}
+
+.main-div {
+    width: 100%;
+    height: 29em;
+
+    display: flex;
+    margin: 5em auto;
+    justify-content: space-around;
+}
+
+.first-div {
+    width: 45%;
+    height: 100%;
+}
+
+.second-div {
+    width: 45%;
+    height: 100%;
+}
+
+.second-div>iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    width: 92%;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+#font {
+    background-color: #f3f3f3;
+    padding: 15px;
+}
+
+.heading {
+    font-size: 42px;
+    font-weight: 800;
+    margin-left: 1em;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.button>a:hover {
+    color: black;
+}
+
+#font:hover {
+    background-color: rgb(214, 214, 214);
+}
+
+.input {
+    width: 80%;
+    margin: 2em
+}
+
+input {
+    height: 35px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #f3f3f3;
+    padding: 10px;
+}
+
+button {
+    padding: 9px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: black;
+    color: white;
+}
+
+.small-input {
+    width: 49%;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.secondmain-div {
+    width: 100%;
+    height: 15em;
+    border: 2px solid brown;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ride {
+    width: 20%;
+    height: 100%;
+    border: solid 2px red;
+}
+
+.ride>img {
+    width: 50%;
+    height: 50%;
+    margin-left: 8em;
+    margin-top: 2em;
+}
+
+.campe {
+    width: 20%;
+    height: 100%;
+    border: solid 2px red;
+}
+
+.campe>img {
+    width: 40%;
+    height: 100%;
+}
+
+.rent {
+    width: 20%;
+    height: 100%;
+    border: solid 2px red;
+}
+
+.rent>img {
+    width: 40%;
+    height: 100%;
+}
+
+.community {
+    width: 20%;
+    height: 100%;
+    border: solid 2px red;
+}
+
+.community>img {
+    width: 40%;
+    height: 100%;
+}
